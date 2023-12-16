@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/namesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Names will be displayed here"/>
+
+    <Button
+        android:id="@+id/showNamesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namesTextView"
+        android:layout_marginTop="-605dp"
+        android:text="Список имен" />
+
+    <Button
+        android:id="@+id/sortNamesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showNamesButton"
+        android:layout_marginTop="13dp"
+        android:text="Сортировать имена" />
+
+    <Button
+        android:id="@+id/saveSortedNamesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sortNamesButton"
+        android:layout_marginTop="16dp"
+        android:text="Сохранить отсортированные имена" />
+</RelativeLayout>
